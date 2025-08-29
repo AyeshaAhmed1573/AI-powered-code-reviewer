@@ -1,0 +1,6 @@
+/* Target the editor's hidden textarea more specifically */
+.code-editor textarea,
+.react-simple-code-editor textarea {
+  caret-color: white !important; /* neon green */
+  color: inherit !important; /* makes sure caret is visible on dark bg */
+}
